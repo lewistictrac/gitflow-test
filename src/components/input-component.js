@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Button from './components/input.js';
+import './input.css';
 
 
 class Input extends Component {
   render() {
     return (
-      <div className="Input">
-      	<input type="text" place-holder="Hello World"/>
+      <div >
+      	<input className="Input" type="text" placeholder="Hello World"/>
       </div>
     );
   }
