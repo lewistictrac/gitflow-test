@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from './components/input.js';
 
 
 class Input extends Component {
